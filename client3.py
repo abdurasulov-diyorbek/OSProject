@@ -14,8 +14,6 @@ PORT2 = 2022
 ADDR2 = (SERVER, PORT2)
 client2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-
-
 def send(msg):
     message = msg.encode(FORMAT)
     client.send(message)
